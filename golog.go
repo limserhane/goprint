@@ -25,5 +25,3 @@ func Magenta(tag string, description string) {
 func Blue(tag string, description string) {
 	fmt.Printf("\033[34m[%s] %s\033[0m", tag, description)
 }
-
-
