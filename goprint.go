@@ -3,7 +3,6 @@ package goprint
 import "fmt"
 
 func Red(format string, args ...interface{}) (string) {
-	// fmt.Printf("\033[31m[%s] %s\033[0m", tag, description)
 	return fmt.Sprintf("\033[31m" + format + "\033[0m", args...)
 }
 
